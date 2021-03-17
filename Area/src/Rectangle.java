@@ -3,8 +3,7 @@ public class Rectangle extends Foursquare {
     private float width;
 
     public Rectangle(float width, float height) {
-        this.height = height;
-        this.width = width;
+        super(width, height);
     }
 
     public float computeArea() {
