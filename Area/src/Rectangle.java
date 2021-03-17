@@ -4,6 +4,8 @@ public class Rectangle extends Foursquare {
 
     public Rectangle(float width, float height) {
         super(width, height);
+        this.width = width;
+        this.height = height;
     }
 
     public float computeArea() {

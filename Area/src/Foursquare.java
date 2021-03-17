@@ -5,5 +5,7 @@ public abstract class Foursquare {
         this.height = height;
         this.width = width;
     }
-    public abstract float computeArea();
+    public float computeArea() {
+        return this.width * this.height;
+    }
 }
